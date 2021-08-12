@@ -32,5 +32,8 @@ Route::get('/delete/{id}',[EmployeeController::class,'delete'])->name('delete');
 
 //export pdf
 Route::get('/exportpdf',[EmployeeController::class,'exportpdf'])->name('exportpdf');
+//export excel
+Route::get('/exportexcel',[EmployeeController::class,'exportexcel'])->name('exportexcel');
+
 
 
