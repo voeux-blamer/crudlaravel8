@@ -11,9 +11,9 @@
     <title>CRUD Laravel 8!</title>
   </head>
   <body>
-    <h1 class="text-center mb-4">Tambah data pegawai</h1>
+    <h1 class="text-center mb-4">Tambah data pegawai ssss</h1>
     
-    <div class="container">
+    <div class="container"> 
 
         <div class="row justify-content-center">
             <div class="col-8">
