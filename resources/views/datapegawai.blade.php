@@ -1,4 +1,14 @@
 @extends('layout.admin')
+@push('css')
+
+<link href ="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPpeVMTNDbiYZxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"
+integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLpb9M36zpMScbmUNIcHUqk"
+crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+@endpush
 @section('content')
 
 
@@ -116,6 +126,12 @@
   
   </div>
 </div>
+@endsection
+
+
+@push('scripts')
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@0.5.1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-gtEjrD/SeCtmISkJkNuaaKMoLD0//ElJI9smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
 crossorigin="anonymous">  </script>
@@ -158,5 +174,4 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </script>
 
 
-
-@endsection
+@endpush
