@@ -2,7 +2,7 @@
 
 @section('content')
 <body>
-    <h1 class="text-center mb-4">Tambah data pegawai</h1>
+    <h1 class="text-center mb-4">Tambah data pegawai ubahdikit</h1>
     
     <div class="container">
 
