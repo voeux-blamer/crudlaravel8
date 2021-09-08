@@ -18,7 +18,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0">Dashboard v2</h1>
+          <h1 class="m-0">Data Pegawai</h1>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
@@ -31,8 +31,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
   </div>
   <div class="container">
     <a href="/tambahpegawai" class="btn btn-success mb-4">Tambah</a>
+    {{-- {{ Session::get('halaman_url') }} --}}
     <div class="row g-3 align-items-center">
-  
       <div class="col-auto">
         <form action="/pegawai" method="GET">
           <input type="search" name="search" class="form-control" >
