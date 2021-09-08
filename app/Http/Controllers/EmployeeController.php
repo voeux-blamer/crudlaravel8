@@ -25,6 +25,12 @@ class EmployeeController extends Controller
         return view('tambahdata');
     }
     public function insertdata(Request $request){
+
+        $this->validate($request,[
+                'nama' => 'required|min:7|max:20',
+                'notelpon' => 'required|min:11|max:12',
+        ]);
+
         $data = Employee::create($request->all());
         if($request->hasFile('foto')){
             $request->file('foto')->move('fotopegawai/', $request->file('foto')->getClientOriginalName());
